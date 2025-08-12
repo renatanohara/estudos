@@ -1,0 +1,27 @@
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class PrimeirosPassos {
+	
+	@Test
+	public void meuPrimeiroTest() {
+		System.setProperty("webdriver", "/home/nohara/Dropbox/Murah/chromedriver/137/chromedriver-linux64/chromedriver");
+	
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://www.google.com.br");
+		
+		String titulo = driver.getTitle();
+		System.out.println("Pega o tíulo da página: " + titulo);
+		
+		String curretURL = driver.getCurrentUrl();
+		System.out.println("Pega a URL atual: " + curretURL);
+		
+		driver.manage().window().maximize(); // maximiza a janela
+	
+	}
+	
+	
+	
+
+}

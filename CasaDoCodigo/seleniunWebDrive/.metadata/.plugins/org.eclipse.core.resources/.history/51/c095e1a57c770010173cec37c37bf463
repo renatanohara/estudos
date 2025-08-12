@@ -1,0 +1,11 @@
+<html>
+	<head>Dis</head>
+	<body>
+		<select arial-label="Dia" name="birthday_day" id="day" title="Dia" class="_5dba">
+			<option value="0">Dia</option>
+			<option value="1" selected="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+		</select>
+	</body>
+</html>

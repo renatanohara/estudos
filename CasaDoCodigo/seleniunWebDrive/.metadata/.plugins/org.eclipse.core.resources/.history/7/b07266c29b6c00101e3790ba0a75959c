@@ -1,0 +1,14 @@
+<html>
+	<head>Titulo</head>
+	<body>
+		<input class="form" id="inputId" name="inputName" type="text">
+		<button class="formBtn" id="btnId" name="btnName">Botao</button>
+		<a href="https://www.google.com/?hl=pt_BR">Va para o Google</a>
+		<hr>
+		<p>achando elemento filho</p>
+		<div class="div">
+			<div class="placeholder"></div>
+			<input type="text" class="inputText" name="firstName">
+		</div>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value=""/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="org.junit.runners.model.InvalidTestClassError: Invalid test class &apos;TestarArquivoLocal&apos;:&#x0A;  1. Method posCondicao() should be static&#x0A;&#x09;at org.junit.runners.ParentRunner.validate(ParentRunner.java:525)&#x0A;&#x09;at org.junit.runners.ParentRunner.&lt;init&gt;(ParentRunner.java:102)&#x0A;&#x09;at org.junit.runners.BlockJUnit4ClassRunner.&lt;init&gt;(BlockJUnit4ClassRunner.java:84)&#x0A;&#x09;at org.junit.runners.JUnit4.&lt;init&gt;(JUnit4.java:23)&#x0A;&#x09;at org.junit.internal.builders.JUnit4Builder.runnerForClass(JUnit4Builder.java:10)&#x0A;&#x09;at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)&#x0A;&#x09;at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)&#x0A;&#x09;at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)&#x0A;&#x09;at org.junit.internal.requests.ClassRequest.createRunner(ClassRequest.java:28)&#x0A;&#x09;at org.junit.internal.requests.MemoizingRequest.getRunner(MemoizingRequest.java:19)&#x0A;&#x09;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createUnfilteredTest(JUnit4TestLoader.java:90)&#x0A;&#x09;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createTest(JUnit4TestLoader.java:76)&#x0A;&#x09;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.loadTests(JUnit4TestLoader.java:49)&#x0A;&#x09;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:513)&#x0A;&#x09;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#x0A;&#x09;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#x0A;&#x09;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)"/>
+			<item value="//&#x09;"/>
+			<item value="&quot;q&quot;"/>
+			<item value="&#x09;&#x09;caixaDePesquisa.clear();"/>
+			<item value="&#x09;@Test"/>
+			<item value="&#x09;@After"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="754"/>
+		<item key="DIALOG_Y_ORIGIN" value="231"/>
+		<item key="DIALOG_WIDTH" value="363"/>
+		<item key="DIALOG_HEIGHT" value="437"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+	</section>
+</section>

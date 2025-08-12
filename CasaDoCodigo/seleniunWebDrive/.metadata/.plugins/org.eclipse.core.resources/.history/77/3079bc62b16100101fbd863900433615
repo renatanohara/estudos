@@ -1,0 +1,16 @@
+import org.junit.Test;
+
+public class PrimeirosPassos {
+	
+	@Test
+	public void meuPrimeiroTest() {
+		System.setProperty("webdriver", "$WEBHOME/137/chromedriver-linux64/chromedriver");
+	
+		WebDriver driver = new Chrome
+	
+	}
+	
+	
+	
+
+}

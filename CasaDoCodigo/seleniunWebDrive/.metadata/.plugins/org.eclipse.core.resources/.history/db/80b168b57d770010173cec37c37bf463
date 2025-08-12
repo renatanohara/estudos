@@ -1,0 +1,43 @@
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.By.ByName;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class DoASelect {
+	
+	static WebDriver driver; 
+	
+	@BeforeClass
+	public static void preCondicao() {
+		System.setProperty("webdriver.chrome.driver", "/home/nohara/Dropbox/Murah/chromedriver/137/chromedriver-linux64/chromedriver");
+		driver = new ChromeDriver();
+		
+		driver.get("file:///home/nohara/git/hub/cursos/CasaDoCodigo/seleniunWebDrive/aprendendo_selenium/src/main/java/comboDia.html");
+		driver.manage().window().maximize(); // maximiza a janela
+	}
+	
+	@Test
+	public void comoEncontrarElementos() {
+		WebElement comboDia = driver.findElement(By.id("day"));
+		Select select = new Select(comboDia);
+	
+	}
+	
+
+	
+}
+
+
+
