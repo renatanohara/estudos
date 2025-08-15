@@ -1,3 +1,5 @@
+import java.util.List;
+
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -21,7 +23,7 @@ public class DoASelect {
 	}
 	
 	@Test
-	public void comoEncontrarElementos() throws InterruptedException {
+	public void selecionarSelect() throws InterruptedException {
 		WebElement comboDia = driver.findElement(By.id("day"));
 		
 		Select select = new Select(comboDia);
@@ -34,9 +36,26 @@ public class DoASelect {
 		Thread.sleep(2000);
 		
 		select.selectByVisibleText("Dia");
-
 	}
 	
+	public void selecionarCheckbox() throws InterruptedException {
+		
+		WebElement opcao1 = driver.findElement(By.name("check01"));
+		//Verifica se a checkbox já está selecionada:
+		boolean selecionado = opcao1.isSelected();
+		System.out.println(selecionado);
+		Thread.sleep(2000); 
+		
+		List<WebElement> checks = driver.findElements(By.name("veiculos"));
+		for(WebElement check: checks) {
+			if(check.getAttribute("value").equalsIgnoreCase("Carro")) {				
+				System.out.println("Elemento é Carro");
+			} else {
+				System.out.println("Elemento é Moto");
+			}
+			
+		}
+	}
 
 	
 }

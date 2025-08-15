@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="DoASelect" project="aprendendo_selenium" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="DoASelect" time="0.084">
-    <testcase name="comoEncontrarElementos" classname="DoASelect" time="0.084"/>
-  </testsuite>
-</testrun>
