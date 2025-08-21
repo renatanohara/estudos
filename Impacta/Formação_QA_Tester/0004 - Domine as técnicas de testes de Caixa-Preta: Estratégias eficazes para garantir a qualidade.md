@@ -63,6 +63,29 @@ Os tipos de falhas que ocorreram em outros aplicativos semelhantes
 <br><br>
 <div style="page-break-after: always;"></div>
 
+## Aula 04: Particionamento de Equivalência
+
+### Particionamento de Equivalência
+
+* Também conhecida como classes de equivalência ou partições de equivalência;
+* As partes devem ser formados por valores válidos e inválidos
+* É baseada em regra de negócio
+
+#### História de usuário
+
+*Como* administrador do sistema de aula,
+*Quero* garantir que os alunos se registrem corretamente,
+*Para* que possam usufruir do sistema de ensino online.
+
+#### Regras de Negócio
+* RN01: Apenas alunos com idade entre 18 e 65 anos podem ser registrados.
+* RN02: O registro de novos alunos é permitido apenas das 8h às 20h (horário local).
+* RN03: Cada aula tem um limite de 30 alunos. Se a capacidade for atingida o aluno deve ser colocado em uma lista de espera.
+* RN04: Alunos antigos matriculados a mais de 2 anos tem direito a um desconto de 15% nas mensalidades.
+
+<img width="1364" height="1030" alt="image" src="https://github.com/user-attachments/assets/925e4200-bb86-4483-94ba-6afc1e505678" />
+
+
 ---
 
 <br><br>
