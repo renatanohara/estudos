@@ -46,6 +46,22 @@ Testes de *caixa preta* focam em verificar a funcionalidade de um componente *se
 
 ## Aula 03: Técnicas baseadas em experiências
 
+## Testes baseados em lista de verificação (checklist)
+
+O testador modela, implementa e executa testes para cobrir as condições de teste de uma lista de verificação.
+
+---
+
+## Teste baseado em suposição de erro
+
+Usada para prever a ocorrência de erros, defeitos e falhas, com base no conhecimento do testador ou usuário
+
+* Como o aplicativo funcionou no passado;
+* Quais os tipos de erros que os desenvolvedores tendem a cometer
+Os tipos de falhas que ocorreram em outros aplicativos semelhantes
+
+<br><br>
+<div style="page-break-after: always;"></div>
 
 ---
 
